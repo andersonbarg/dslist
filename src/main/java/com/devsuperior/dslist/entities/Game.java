@@ -25,10 +25,10 @@ public class Game {
 	private Double score;
 	private String imgUrl;
 
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT")		//força que o campo seja criado como texto no banco de dados
 	private String shortDescription;
 	
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT")		
 	private String longDescription;
 	
 	public Game() {
